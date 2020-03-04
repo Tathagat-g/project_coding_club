@@ -1,0 +1,64 @@
+h1
+{
+    font-size: 52px;
+    font-family: fantasy;
+    color: rgb(199, 21, 21);
+    text-transform: capitalize;
+    text-align: center;
+}
+body
+{
+    background: url(chris-lawton-6tfO1M8_gas-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.nav_bar
+{
+    overflow: hidden;
+    background:none;
+}
+.nav_bar a
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    color:black;
+    border-bottom:3px solid orange;
+    border-width: inherit;
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    float: right;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.nav_bar a:hover
+{
+    background-color: orange;
+    color:green;
+}
+#banner
+{
+    padding: 20px;
+    position: absolute;
+    left: 35%;
+    margin-top: 6%;
+    
+}
+.fading
+{
+    animation:fading 10s infinite
+}
+@keyframes fading
+{
+    0%
+    {opacity:0}
+    50%
+    {opacity:1}
+    100%
+    {opacity:0}
+}
